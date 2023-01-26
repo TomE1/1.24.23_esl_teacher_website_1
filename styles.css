@@ -8,7 +8,7 @@
   --max-height: 18.75rem;
 
   /* Rainbow borders */
-/* 
+/*  
   --borderViolet: 3px solid #9400d3;
   --borderIndigo: 3px solid #4b0082;
   --borderBlue: 3px solid #0000ff;
@@ -21,7 +21,7 @@
   --borderBrown: 3px solid brown;
   --borderBisque: 3px solid bisque;
   --borderKhaki: 3px solid khaki;
-  --borderGray: 3px solid gray; */
+  --borderGray: 3px solid gray; */ */
 }
 
 *,
@@ -48,7 +48,7 @@ h2 {
 
 p {
   font-size: 70%;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.6;
 }
 
@@ -69,6 +69,20 @@ body {
   overflow: hidden;
   color: var(--color-black);
 }
+
+.fa-brands {
+  padding: .7rem;
+  font-size: 1.5rem;
+  width: 1rem;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display:inline-block; 
+}
+
 
 .container {
   width: var(--max-width);
